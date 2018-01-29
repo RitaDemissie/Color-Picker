@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Color Displayer</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+<div class="body">
+	<h1>CSS color Displayer</h1>
+	<h3>Select a number from 0 to 255 for each color value:</h3>
+	<div class= "box">
+		<label for="Red">Red:</label>
+		<input type="text" id="Red" maxlength="3" size="3" >
+	</div>
+	<div class= "box">
+		<label for="Green">Green:</label>
+		<input type="text" id="Green" maxlength="3" size="3" >
+	</div>
+	<div class= "box">
+		<label for="Blue">Blue:</label>
+		<input type="text" id="Blue" maxlength="3" size="3" >
+	</div>
+	<div>
+	</br>
+		<button id="btnColor"onclick="ShowColor()">Show me the color</button> </br></br>
+		<button id="btnClear" onclick="ClearAll()">Clear all</button></br></br>
+	</div>
+	
+	<input type= "text" id="box" size="50">
+</div>
+	<script src="script.js"> </script>
+</body>
+</html>
